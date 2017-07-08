@@ -1,0 +1,24 @@
+@charset "utf-8";
+@mixin transform($value){
+  transform:$value;
+  -ms-transform:$value; 	/* IE 9 */
+  -moz-transform:$value; 	/* Firefox */
+  -webkit-transform:$value; /* Safari 和 Chrome */
+  -o-transform:$value; 	/* Opera */
+}
+.btn{
+  display: block;
+  margin: 40rpx auto;
+  background: #F0F0F0;
+  width: 480rpx;
+  height: 100rpx;
+  font-size: 60rpx;
+  line-height: 100rpx;
+  border: 2rpx solid #333;
+  border-radius: 10rpx;
+  text-align: center;
+}
+.blue-btn{
+  background: #2583E7;
+  color: white;
+}

@@ -1,0 +1,134 @@
+@charset "UTF-8";
+.btn {
+  display: block;
+  margin: 40rpx auto;
+  background: #F0F0F0;
+  width: 480rpx;
+  height: 100rpx;
+  font-size: 60rpx;
+  line-height: 100rpx;
+  border: 2rpx solid #333;
+  border-radius: 10rpx;
+  text-align: center; }
+
+.blue-btn {
+  background: #2583E7;
+  color: white; }
+
+page {
+  background: url("https://g.mdcdn.cn/pc/html/newbie/sela/img/under_cover_bg.jpeg") no-repeat;
+  background-size: cover; }
+
+.wrap {
+  width: 100%;
+  position: relative;
+  background: cover; }
+  .wrap .init-wrap .button-wrap {
+    margin-top: 100rpx; }
+  .wrap .title-wrap {
+    text-align: center;
+    margin-top: 80rpx;
+    font-weight: bold;
+    font-size: 72rpx; }
+  .wrap .input-wrap {
+    margin-top: 90rpx;
+    text-align: center;
+    font-size: 48rpx;
+    width: 100%; }
+    .wrap .input-wrap .input-txt {
+      background: #F0F0F0;
+      display: inline-block;
+      width: 400rpx;
+      border: 2rpx solid #333;
+      padding: 20rpx 0;
+      border-radius: 6rpx;
+      box-sizing: border-box;
+      height: 100rpx;
+      line-height: 100rpx; }
+  .wrap .button-wrap {
+    width: 100%;
+    margin-top: 60rpx; }
+  .wrap .content-wrap .card-cover-box {
+    margin-top: 60rpx;
+    text-align: center;
+    position: relative; }
+    .wrap .content-wrap .card-cover-box .content-box {
+      font-size: 90rpx;
+      background: #F1F1F1;
+      border: 2rpx solid #333;
+      border-radius: 20rpx;
+      position: absolute;
+      width: 500rpx;
+      height: 500rpx;
+      line-height: 500rpx;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      /* IE 9 */
+      -moz-transform: translate(-50%, -50%);
+      /* Firefox */
+      -webkit-transform: translate(-50%, -50%);
+      /* Safari 和 Chrome */
+      -o-transform: translate(-50%, -50%);
+      /* Opera */
+      font-weight: bolder;
+      text-shadow: 10rpx 10rpx 10rpx #aaa; }
+    .wrap .content-wrap .card-cover-box image {
+      width: 500rpx;
+      height: 500rpx; }
+  .wrap .content-wrap .cover-state .content-box {
+    display: none; }
+
+.hide {
+  display: none; }
+
+.card-rotate-animation {
+  animation: card-rotate 1s 1;
+  -webkit-animation: card-rotate 1s 1;
+  /* Safari 和 Chrome */ }
+
+@keyframes card-rotate {
+  0% {
+    transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    /* IE 9 */
+    -moz-transform: rotateY(0deg);
+    /* Firefox */
+    -webkit-transform: rotateY(0deg);
+    /* Safari 和 Chrome */
+    -o-transform: rotateY(0deg);
+    /* Opera */ }
+  100% {
+    transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
+    /* IE 9 */
+    -moz-transform: rotateY(360deg);
+    /* Firefox */
+    -webkit-transform: rotateY(360deg);
+    /* Safari 和 Chrome */
+    -o-transform: rotateY(360deg);
+    /* Opera */ } }
+@-webkit-keyframes card-rotate {
+  0% {
+    transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    /* IE 9 */
+    -moz-transform: rotateY(0deg);
+    /* Firefox */
+    -webkit-transform: rotateY(0deg);
+    /* Safari 和 Chrome */
+    -o-transform: rotateY(0deg);
+    /* Opera */ }
+  100% {
+    transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
+    /* IE 9 */
+    -moz-transform: rotateY(360deg);
+    /* Firefox */
+    -webkit-transform: rotateY(360deg);
+    /* Safari 和 Chrome */
+    -o-transform: rotateY(360deg);
+    /* Opera */ } }
+
+/*# sourceMappingURL=under_cover.wxss.map */

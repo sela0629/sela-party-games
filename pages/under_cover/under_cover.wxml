@@ -1,0 +1,32 @@
+<!--index.wxml-->
+<view class="wrap">
+   <view wx:if="{{contentState == 0}}" class="init-wrap">
+    <view class="title-wrap">
+        输入参与人数
+    </view>
+    <view class="input-wrap">
+        <input bindinput="inputMemberCount" value="{{memberCount}}" class="input-txt" type="text" placeholder="3~12的数字" maxlength="2"/>
+    </view>
+       <view class="button-wrap">
+           <view bindtap="startGame" class="btn blue-btn">开始游戏</view>
+           <navigator url="/pages/under_cover/under_cover" open-type="redirect" class="btn">清空重来</navigator>
+
+       </view>
+   </view>
+    <view  wx:if="{{contentState == 1}}" class="content-wrap">
+        <view class="title-wrap">第{{nowNo}}位</view>
+        <!-- 默认内容展示，cover-state 遮盖 -->
+        <view class="card-cover-box {{coverState}}">
+            <view class="content-box">
+                {{gameTxt}}
+            </view>
+            <image class="{{cardRotateAnimation}}" src="https://g.mdcdn.cn/pc/html/newbie/sela/img/card_cover.png"></image>
+        </view>
+        <view class="button-wrap">
+            <view wx:if="{{isRotate == 1}}" bindtap="rotateCard" class="btn blue-btn">点击翻牌</view>
+            <view wx:if="{{isRotate == 2}}" bindtap="nextCart" class="btn blue-btn">{{nextCardBtnTxt}}</view>
+            <navigator url="/pages/under_cover/under_cover" open-type="redirect" class="btn">清空重来</navigator>
+        </view>
+
+    </view>
+</view>

@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="wrap">
+  <view class="shake-wrap">
+     <image mode="widthFix" src="https://g.mdcdn.cn/pc/html/newbie/sela/img/shake.GIF"></image>
+  </view>
+    <view wx:if="{{action !='' }}" class="content-wrap content-animation {{hide}}">
+        <view class="expression-box">
+            {{expression}}
+        </view>
+        <view class="action-box">{{action}}</view>
+    </view>
+    <view wx:else class="init-wrap">
+        手机摇一摇，真心话大冒险~
+    </view>
+    <audio name="{{name}}" id="myAudio" src="https://g.mdcdn.cn/pc/html/newbie/sela/img/wx_shake.mp3" ></audio>
+</view>

@@ -1,0 +1,46 @@
+
+<view class="emoji  emoji--like">
+    <view class="emoji__hand">
+        <view class="emoji__thumb"></view>
+    </view>
+</view>
+<view class="emoji  emoji--love">
+    <view class="emoji__heart"></view>
+</view>
+<view class="emoji  emoji--haha">
+    <view class="emoji__face">
+        <view class="emoji__eyes"></view>
+        <view class="emoji__mouth">
+            <view class="emoji__tongue"></view>
+        </view>
+    </view>
+</view>
+<view class="emoji  emoji--yay">
+    <view class="emoji__face">
+        <view class="emoji__eyebrows"></view>
+        <view class="emoji__mouth"></view>
+    </view>
+</view>
+<view class="emoji  emoji--wow">
+    <view class="emoji__face">
+        <view class="emoji__eyebrows"></view>
+        <view class="emoji__eyes"></view>
+        <view class="emoji__mouth"></view>
+    </view>
+</view>
+<view class="emoji  emoji--sad">
+    <view class="emoji__face">
+        <view class="emoji__eyebrows"></view>
+        <view class="emoji__eyes"></view>
+        <view class="emoji__mouth"></view>
+    </view>
+</view>
+<view class="emoji  emoji--angry">
+    <view class="emoji__face">
+        <view class="emoji__eyebrows"></view>
+        <view class="emoji__eyes"></view>
+        <view class="emoji__mouth"></view>
+    </view>
+</view>
+
+

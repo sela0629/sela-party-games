@@ -1,0 +1,18 @@
+{
+  "pages":[
+      "pages/index/index",
+      "pages/truth_brave/truth_brave",
+      "pages/test/index",
+    "pages/under_cover/under_cover",
+    "pages/dice/dice",
+
+    "pages/logs/logs"
+  ],
+    "window": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "聚会party无忧",
+        "navigationBarBackgroundColor": "#0092D8",
+        "backgroundColor": "#EFEFF4"
+
+    }
+}

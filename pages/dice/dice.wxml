@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="wrap">
+  <view class="shake-wrap">
+      <view class="shake-box">
+          <div class="moon-box">
+              <div class="moon"></div>
+          </div>
+
+          <view class="dice pos_1 {{pos_1}}" ></view>
+          <view class="dice pos_2 {{pos_2}}" ></view>
+          <view class="dice pos_3 {{pos_3}}" ></view>
+          <view class="dice pos_4 {{pos_4}}" ></view>
+          <view class="dice pos_5 {{pos_5}}" ></view>
+           </view>
+  </view>
+    <view wx:if="{{totalCount !='' }}" class="content-wrap">
+        <view class="expression-box">当前点数：{{totalCount}}</view>
+    </view>
+    <view wx:else class="init-wrap"> 
+        手机摇一摇，摇色子~
+    </view>
+    <audio name="{{name}}" id="myAudio" src="https://g.mdcdn.cn/pc/html/newbie/sela/img/dice_voice.mp3" ></audio>
+</view>

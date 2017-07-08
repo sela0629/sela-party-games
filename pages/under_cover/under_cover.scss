@@ -1,0 +1,104 @@
+@charset "utf-8";
+@import "../common/base";
+page{
+  background: url("https://g.mdcdn.cn/pc/html/newbie/sela/img/under_cover_bg.jpeg") no-repeat;
+  background-size: cover;
+}
+
+.wrap{
+  width: 100%;
+  position: relative;
+  background: cover;
+  .init-wrap{
+    .button-wrap{
+      margin-top: 100rpx;
+    }
+  }
+  .title-wrap{
+    text-align: center;
+    margin-top: 80rpx;
+    font-weight: bold;
+    font-size: 72rpx;
+  }
+  .input-wrap{
+    margin-top: 90rpx;
+    text-align: center;
+    font-size: 48rpx;
+    width: 100%;
+    .input-txt{
+      background: #F0F0F0;
+      display: inline-block;
+      width: 400rpx;
+      border: 2rpx solid #333;
+      padding: 20rpx 0;
+      border-radius: 6rpx;
+      box-sizing: border-box;
+      height: 100rpx;
+      line-height: 100rpx;
+    }
+  }
+  .button-wrap{
+   width: 100%;
+    margin-top: 60rpx;
+  }
+
+  .content-wrap{
+    .card-cover-box{
+      margin-top: 60rpx;
+      text-align: center;
+      position: relative;
+      .content-box{
+        font-size: 90rpx;
+        background: #F1F1F1;
+        border: 2rpx solid #333;
+        border-radius: 20rpx;
+        position: absolute;
+        width: 500rpx;
+        height: 500rpx;
+        line-height: 500rpx;
+        left: 50%;
+        top: 50%;
+        @include transform(translate(-50%,-50%));
+         font-weight: bolder;
+        text-shadow:10rpx 10rpx 10rpx #aaa;
+
+      }
+      image{
+        width: 500rpx;
+        height: 500rpx;
+      }
+    }
+    .cover-state{
+      .content-box{
+        display: none;
+      }
+    }
+  }
+}
+.hide{
+  display: none;
+}
+.card-rotate-animation{
+  animation:card-rotate 1s 1;
+  -webkit-animation:card-rotate 1s 1; /* Safari 和 Chrome */
+}
+@keyframes card-rotate
+{
+  0% {
+    @include transform(rotateY(0deg));
+
+  }
+  100% {
+    @include transform(rotateY(360deg));
+  }
+}
+@-webkit-keyframes card-rotate
+{
+  0% {
+    @include transform(rotateY(0deg));
+
+  }
+  100% {
+    @include transform(rotateY(360deg));
+  }
+}

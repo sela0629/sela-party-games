@@ -1,0 +1,63 @@
+@charset "utf-8";
+@import "../common/base";
+page{
+//  background: url("/pages/img/index_bg.jpg") no-repeat;
+//  background-size: cover;
+}
+.index-bg{
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: cover;
+  opacity:0.4;
+  filter:alpha(opacity=40); /* 针对 IE8 以及更早的版本 */
+ }
+.container{
+  padding-top: 100rpx;
+//  background-image: url("../img/bg.jpeg");
+//  background-size: 100% 100%;
+}
+.userinfo{
+  margin-bottom: 40rpx;
+  text-align: center;
+  image{
+    display: block;
+    width: 200rpx;
+    height: 200rpx;
+    border-radius: 50%;
+    margin-bottom: 20rpx;
+  }
+.userinfo-nickname{
+
+}
+}
+.game-wrap{
+  width: 100%;
+//  background: #ccc;
+  .game-box{
+    display: flex;
+    margin: 10rpx;
+    .game-item{
+      text-align: center;
+      flex: 1;
+      background: #2583E7;
+      height: 200rpx;
+      line-height: 200rpx;
+      font-size: 48rpx;
+      text-shadow:10rpx 10rpx 10rpx #444;
+      margin: 10rpx;
+      border-radius: 20rpx;
+      color: white;
+    }
+    .game1{
+      background: #F6514B;
+    }
+    .game3{
+      background: #F0C94B;
+    }
+    .game4{
+      background: #2CB95D;
+    }
+  }
+}

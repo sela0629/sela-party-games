@@ -1,0 +1,120 @@
+@charset "utf-8";
+@import "../common/base";
+@import "../common/emoj";
+page{
+  background: #F6514B;
+}
+.wrap{
+  width: 100%;
+  position: relative;
+  .shake-wrap{
+    margin-top: 20%;
+    width: 100%;
+    height: 480rpx;
+    text-align: center;
+    font-size: 0;
+    image{
+      width: 600rpx;
+    }
+  }
+  .expression-box,.action-box{
+    margin: 0 auto;
+    padding: 20rpx;
+    text-align: center;
+//    width: 640rpx;
+    width: 100%;
+    background: #F0F0F0;
+    border-radius: 20rpx;
+    box-sizing: border-box;
+  }
+  .expression-box{
+    position: relative;
+    margin-top: 60rpx;
+  }
+  .action-box{
+    margin-top: 30rpx;
+  }
+  .init-wrap{
+    text-align: center;
+    font-size: 48rpx;
+    color: white;
+    margin-top: 60rpx;
+  }
+}
+.content-wrap{
+  box-sizing: border-box;
+  padding: 0 40rpx;
+//  position: relative;
+//  width: 640rpx;
+//  top: 20%;
+//  left: 0;
+//  margin: 0 auto;
+}
+.content-animation{
+  animation:mymove 2s 1;
+  -webkit-animation:mymove 2s 1; /* Safari 和 Chrome */
+ }
+.hide{
+  display: none;
+}
+
+@keyframes mymove
+{
+  0% {
+    position: absolute;
+    width: 2rpx;
+    height: 2rpx;
+    top: 20%;
+    left: 50%;
+    @include transform(scale(0));
+    @include transform(transtionX(-50%));
+  }
+  50%{
+    @include transform(scale(.5));
+    height: 2rpx;
+  }
+  100% {
+    position: relative;
+    padding: 0 40rpx;
+    top: 20%;
+    left: 0;
+    margin: 0 auto;
+    @include transform(scale(1));
+  }
+}
+
+@-webkit-keyframes mymove /*Safari and Chrome*/
+{
+  0% {
+    position: absolute;
+    width: 2rpx;
+    height: 2rpx;
+    top: 20%;
+    left: 50%;
+    overflow: hidden;
+    @include transform(scale(0));
+    @include transform(transtionX(-50%));
+  }
+  50%{
+    width: 2rpx;
+    height: 2rpx;
+    overflow: hidden;
+    @include transform(scale(.3));
+  }
+  100% {
+    position: relative;
+    padding: 0 40rpx;
+    top: 20%;
+    left: 0;
+    margin: 0 auto;
+    @include transform(scale(1));
+  }
+}
+
+
+.expression{
+  position: absolute;
+  top: -116rpx;
+  left: 0;
+  @include transform(scale(.5));
+}

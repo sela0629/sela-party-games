@@ -1,0 +1,140 @@
+@charset "UTF-8";
+page {
+  background: #F6514B; }
+
+.wrap {
+  width: 100%;
+  position: relative; }
+  .wrap .shake-wrap {
+    position: relative;
+    margin: 20% auto 0 auto; }
+  .wrap .expression-box {
+    margin: 0 auto;
+    padding: 20rpx;
+    text-align: center;
+    width: 100%;
+    background: #F0F0F0;
+    border-radius: 20rpx;
+    box-sizing: border-box; }
+  .wrap .expression-box {
+    margin-top: 60rpx; }
+  .wrap .init-wrap {
+    text-align: center;
+    font-size: 48rpx;
+    color: white;
+    margin-top: 60rpx; }
+
+.content-wrap {
+  box-sizing: border-box;
+  padding: 0 40rpx; }
+
+.hide {
+  display: none; }
+
+.shake-box {
+  width: 600rpx;
+  height: 600rpx;
+  background: white;
+  border: 1rpx solid #666;
+  border-radius: 50%;
+  position: relative;
+  margin: 0 auto; }
+  .shake-box .moon-box {
+    position: absolute;
+    width: 530rpx;
+    height: 530rpx;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    /* IE 9 */
+    -moz-transform: translate(-50%, -50%);
+    /* Firefox */
+    -webkit-transform: translate(-50%, -50%);
+    /* Safari 和 Chrome */
+    -o-transform: translate(-50%, -50%);
+    /* Opera */ }
+  .shake-box .moon {
+    position: absolute;
+    box-sizing: border-box;
+    border-right: 90rpx solid #B9BDBC;
+    border-radius: 50%;
+    width: 530rpx;
+    height: 530rpx;
+    background-color: transparent;
+    transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    /* IE 9 */
+    -moz-transform: rotate(-30deg);
+    /* Firefox */
+    -webkit-transform: rotate(-30deg);
+    /* Safari 和 Chrome */
+    -o-transform: rotate(-30deg);
+    /* Opera */ }
+
+.dice {
+  width: 180rpx;
+  height: 180rpx;
+  background-image: url(https://g.mdcdn.cn/pc/html/newbie/sela/img/dice_sprite.png);
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-size: 200rpx 2000rpx;
+  position: absolute;
+  transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  /* IE 9 */
+  -moz-transform: scale(0.8);
+  /* Firefox */
+  -webkit-transform: scale(0.8);
+  /* Safari 和 Chrome */
+  -o-transform: scale(0.8);
+  /* Opera */ }
+
+.pos_1 {
+  left: 82rpx;
+  top: 69rpx; }
+
+.pos_2 {
+  left: 323rpx;
+  top: 69rpx; }
+
+.pos_3 {
+  left: 202rpx;
+  top: 204rpx; }
+
+.pos_4 {
+  left: 82rpx;
+  top: 333rpx; }
+
+.pos_5 {
+  left: 323rpx;
+  top: 333rpx; }
+
+.dice_1 {
+  background-position: -8rpx -6rpx; }
+
+.dice_2 {
+  background-position: -8rpx -214rpx; }
+
+.dice_3 {
+  background-position: -8rpx -424rpx; }
+
+.dice_4 {
+  background-position: -8rpx -634rpx; }
+
+.dice_5 {
+  background-position: -8rpx -854rpx; }
+
+.dice_6 {
+  background-position: -8rpx -1074rpx; }
+
+.dice_t {
+  background-position: -4rpx -1297rpx; }
+
+.dice_s {
+  background-position: 0rpx -1520rpx; }
+
+.dice_e {
+  background-position: -4rpx -1747rpx; }
+
+/*# sourceMappingURL=dice.wxss.map */

@@ -1,0 +1,64 @@
+@charset "UTF-8";
+.btn {
+  display: block;
+  margin: 40rpx auto;
+  background: #F0F0F0;
+  width: 480rpx;
+  height: 100rpx;
+  font-size: 60rpx;
+  line-height: 100rpx;
+  border: 2rpx solid #333;
+  border-radius: 10rpx;
+  text-align: center; }
+
+.blue-btn {
+  background: #2583E7;
+  color: white; }
+
+.index-bg {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: cover;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  /* 针对 IE8 以及更早的版本 */ }
+
+.container {
+  padding-top: 100rpx; }
+
+.userinfo {
+  margin-bottom: 40rpx;
+  text-align: center; }
+  .userinfo image {
+    display: block;
+    width: 200rpx;
+    height: 200rpx;
+    border-radius: 50%;
+    margin-bottom: 20rpx; }
+
+.game-wrap {
+  width: 100%; }
+  .game-wrap .game-box {
+    display: flex;
+    margin: 10rpx; }
+    .game-wrap .game-box .game-item {
+      text-align: center;
+      flex: 1;
+      background: #2583E7;
+      height: 200rpx;
+      line-height: 200rpx;
+      font-size: 48rpx;
+      text-shadow: 10rpx 10rpx 10rpx #444;
+      margin: 10rpx;
+      border-radius: 20rpx;
+      color: white; }
+    .game-wrap .game-box .game1 {
+      background: #F6514B; }
+    .game-wrap .game-box .game3 {
+      background: #F0C94B; }
+    .game-wrap .game-box .game4 {
+      background: #2CB95D; }
+
+/*# sourceMappingURL=index.wxss.map */
