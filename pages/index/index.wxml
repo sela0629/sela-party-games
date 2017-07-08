@@ -11,16 +11,26 @@
               真心话大冒险
           </navigator>
           <navigator url="/pages/dice/dice" class="game-item game2">
-              投色子
+              摇色子
           </navigator>
       </view>
       <view class="game-box">
-          <navigator url="/pages/under_cover/under_cover" class="game-item game3">
+           <navigator url="/pages/under_cover/under_cover" class="game-item game3">
               谁是卧底
           </navigator>
-          <view bindtap="hopeTip" class="game-item game4">
+          <navigator url="/pages/guess/index" class="game-item game4">
+              画中作乐
+          </navigator>
+      </view>
+
+      <!-- <view class="game-box"> 
+          <view bindtap="hopeTip" class="game-item game5"> 
               敬请期待...
           </view>
-      </view>
+          <navigator url="/pages/under_cover/under_cover" class="game-item game6">
+              问题反馈
+          </navigator>
+          
+      </view> -->
   </view>
 </view>

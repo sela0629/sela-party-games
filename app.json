@@ -5,7 +5,7 @@
       "pages/test/index",
     "pages/under_cover/under_cover",
     "pages/dice/dice",
-
+ "pages/guess/index",
     "pages/logs/logs"
   ],
     "window": {

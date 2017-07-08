@@ -45,12 +45,12 @@ page{
       height: 200rpx;
       line-height: 200rpx;
       font-size: 48rpx;
-      text-shadow:10rpx 10rpx 10rpx #444;
+      text-shadow:10rpx 10rpx 10rpx #444; 
       margin: 10rpx;
       border-radius: 20rpx;
       color: white;
     }
-    .game1{
+    .game1{ 
       background: #F6514B;
     }
     .game3{
@@ -59,5 +59,11 @@ page{
     .game4{
       background: #2CB95D;
     }
+    .game5{
+      background: #EDA2FD;
+    }
+    .game6{
+      background: #A1E65E; 
+    } 
   }
-}
+} 
